@@ -1,4 +1,4 @@
-const a = "4KaP4Kaf4Ka+IGJhc2U2NCBlbmNvZGUg4KaV4Kaw4KeHIOCmpuCmvuCmkw==";
+const a = "QGJhcnRhbndhdw==";
 const b = prompt("Enter Your Password, admin:AsHikTechPro");
 const c = btoa(b);
 
