@@ -41,3 +41,10 @@ function detectScam() {
         result.style.color = 'green';
     }
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    const analyzeBtn = document.getElementById('analyzeBtn');
+    if (analyzeBtn) {
+        analyzeBtn.addEventListener('click', detectScam);
+    }
+});
